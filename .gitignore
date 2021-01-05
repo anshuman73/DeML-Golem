@@ -1,0 +1,5 @@
+*.gvmi
+**__pycache__
+.vscode/
+output/
+*.log
