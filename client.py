@@ -29,6 +29,7 @@ def main():
     model.save(f'/golem/output/model_round_{specs.global_round}_{specs.node_number}.h5')
     with open(f'/golem/output/log_round_{specs.global_round}_{specs.node_number}.json', 'w') as log_file:
         log_file.write(json.dumps(train_history.history))
+    print('Training Done. BBye!')
 
 
 if __name__ == "__main__":

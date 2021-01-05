@@ -21,11 +21,11 @@ TEXT_COLOR_WHITE = "\033[37;1m"
 TEXT_COLOR_DEFAULT = "\033[0m"
 
 GLOBAL_TRAINING_ROUNDS = 3
-NUM_PROVIDERS = 4  # More means slower per node, faster overall
+NUM_PROVIDERS = 3  # More means slower per node, faster overall
 PROVIDER_EPOCHS = 5  # More means slower, but better convergence of the model
 BATCH_SIZE = 64  # More means faster convergence, but may lose out on accuracy
 
-SUBNET_TAG = 'community.3'  # (anshuman73/community.3)
+SUBNET_TAG = 'anshuman73'  # (anshuman73/community.3)
 
 WORKER_MODEL_WEIGHTS_FOLDER = 'output/worker_models'
 WORKER_LOGS_FOLDER = 'output/logs'
@@ -162,6 +162,12 @@ async def main():
         )
         model.save(os.path.join(ROUND_WEIGHTS_FOLDER,
                                 f'round_{global_round_number}.h5'))
+    print(
+        f"{TEXT_COLOR_GREEN}"
+        f"TRAINING COMPLETE! FIND YOUR FINAL MODEL BY THE NAME OF"
+        f" 'round_{global_round_number}.h5' IN THE OUTPUT FILES"
+        f"{TEXT_COLOR_DEFAULT}"
+    )
 
 
 if __name__ == "__main__":
@@ -196,4 +202,4 @@ if __name__ == "__main__":
             pass
 
 
-# Cleanup logs & generated files -> rm -rv __pycache__ logs/ model_rounds/ worker_models/ deml.log
+# Cleanup logs & generated files -> rm -rv /output
