@@ -82,6 +82,7 @@ async def main():
         f"{TEXT_COLOR_DEFAULT}"
     )
     model = get_compiled_model()
+    model.summary()
     print(
         f"{TEXT_COLOR_GREEN}"
         f"Loading the data"

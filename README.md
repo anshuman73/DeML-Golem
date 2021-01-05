@@ -1,6 +1,13 @@
 # DeML-Golem
 Proof Of Concept of DEcentralised Machine Learning on top of the Golem (https://golem.network/) architecture
 
+## Links
+
+**[Presentation Link](https://www.canva.com/design/DAESZN1KDUg/0JykrxMAtGY7El67wKGKvA/view?utm_content=DAESZN1KDUg&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent)**
+
+**[Presentation Download Link](./DeML.pdf)**
+
+**[Youtube Link]()**
 
 ## The Idea
 
@@ -77,4 +84,4 @@ You can even do [something suggested](https://discord.com/channels/6847035599543
     1. Build a UI. Something like slate, another submission in the hackathon, where I can simply provide my model definition and dataset, and never interact much with the code unless I want to.
     2. Another module to run ML models after we've trained them to process live data - with a UI as well, where I just upload my .h5 files and specify dataset.
     3. Run more complex models!! (Keep an eye out for another branch!)
-    4. Run ML models on GPU! The golem team is working on bringing in GPU support, and it will be amazing to see the performance bump that could possibly bring to ML training, especially for models like CNNs etc
+    4. Run ML models on GPU! The golem team is working on bringing in GPU support, and it will be amazing to see the performance bump that could possibly bring to ML training, especially for models like CNNs etc.
