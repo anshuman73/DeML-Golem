@@ -7,7 +7,8 @@ Proof Of Concept of DEcentralised Machine Learning on top of the Golem (https://
 
 **[Presentation Download Link](./DeML.pdf)**
 
-**[Youtube Link](https://youtu.be/aNamlYfdB9U)**
+**[Youtube Link (Part 1)](https://youtu.be/T4I4yFEyB8U) [Explains the project]**
+**[Youtube Link (Part 2)](https://youtu.be/dGTA3f9AV6U) [The Demo]**
 
 ## The Idea
 
