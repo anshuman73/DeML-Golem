@@ -25,7 +25,7 @@ NUM_PROVIDERS = 3  # More means slower per node, faster overall
 PROVIDER_EPOCHS = 5  # More means slower, but better convergence of the model
 BATCH_SIZE = 64  # More means faster convergence, but may lose out on accuracy
 
-SUBNET_TAG = 'anshuman73'  # (anshuman73/community.3)
+SUBNET_TAG = 'community.3'  # (anshuman73/community.3)
 
 WORKER_MODEL_WEIGHTS_FOLDER = 'output/worker_models'
 WORKER_LOGS_FOLDER = 'output/logs'
